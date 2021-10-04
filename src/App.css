@@ -1,0 +1,423 @@
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App {
+  color: white;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.main-container{
+  /* padding: 50px 81px; */
+  color: #ffffff;
+}
+
+.home-sub-section {
+  padding: 0px 200px 260px 200px;
+  text-align: center;
+}
+
+.home-sub-section-header{
+  padding: 128px 0px;
+}
+
+.home-sub-section-container {
+  display: flex;
+  flex-direction: row;
+  padding: 15px 0px;
+  gap: 45px
+}
+
+.home-sub-section-container > div{
+  flex-grow: 1;
+}
+
+.home-sub-section > div > h1 {
+  font-size: 3.3em;
+  margin-top: 0px;
+}
+
+.home-sub-section p{
+  font-size: 1.2em;
+}
+
+.card-two{
+  border-radius: 12px;
+  margin-bottom: 42px;
+  overflow: hidden;
+}
+
+.card-two > div{
+  padding: 20px 40px 45px 40px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.card-two-date{
+  float: right;
+}
+
+.card-two-paragraph{
+  margin-top: 45px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.card-two-paragraph > h4 {
+  font-size: 2em;
+}
+
+.card-two-text{
+  margin-block-end: 0px;
+  margin-block-start: 0px;
+}
+
+.card-two-slim-text {
+  font-size: 1em;
+  font-weight: 100;
+}
+
+.card-two-title {
+  font-size: 2em;
+}
+
+.card-three {
+  /* border: solid blue 1px; */
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 7px #888888;
+  box-shadow: black;
+}
+
+.card-three > div > img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-three-info {
+  text-align: left;
+  padding: 20px;
+}
+
+.card-three-info > p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-size: 2em;
+}
+
+.text-gray {
+  color: gray;
+  font-size: 1.2em !important;
+}
+
+.card-one{
+  display: flex;
+  margin: 90px 0px;
+
+}
+
+.card-one img{
+  padding: 30px;
+
+}
+
+.card-one-info{
+  padding: 0px 80px;
+}
+
+.card-one-info-title{
+  margin-top: 0px;
+  font-size: 3.3em;
+  font-weight: 400;
+  color: #f64480;
+}
+
+.footer-section{
+  padding-bottom: 40px;
+}
+
+.foot-container {
+  display: flex;
+  padding: 40px 200px 0px 200px
+}
+
+.foot-container-item {
+  flex: 1;
+  padding: 20px 80px;
+}
+
+.foot-container-item > ul {
+  list-style: none;
+}
+
+.foot-container-item > ul > li {
+  margin-top: 20px;
+  font-size: 2em;
+}
+
+.foot-container-item-icon {
+  flex: 2;
+  padding: 20px 40px;
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Navigation-bar {
+  padding: 50px 81px;
+}
+
+.Navigation-bar ul{
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  font-size: 1.3em;
+  padding: 0;
+  max-width: 44%;
+}
+
+.Navigation-bar ul li{
+  float: left;
+  flex: auto;
+}
+
+.Navigation-bar .apply-link a{
+  color: #f64480;
+
+}
+
+.Navigation-bar ul li a{
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.Navigation-bar ul li a:hover{
+  background-color: #111;
+}
+
+.dobule-section{
+  display: flex;
+  padding: 0px 81px;
+}
+
+.section-gray{
+  background-color: #2c354c;
+}
+
+.section-pink {
+  background-color: #f64480;
+}
+
+.section-white{
+  background-color: #ffffff;
+  color: black;
+}
+
+.dobule-section section {
+  width: 50%;
+  height: 1100px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.dobule-section section div h1{
+  font-size: 3.6em;
+}
+
+.dobule-section section div p{
+  font-size: 1.2em;
+}
+
+.getFunded{
+  border-radius: 60px;
+  font-size: 1.6em;
+  padding: 15px 42px;
+  border:grey;
+  color: white;
+  background-color: #f64480;
+  margin: 40px 0px 160px 0px;
+}
+
+.apply-form {
+  padding: 200px 25%;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.apply-form-info > h1{
+  font-size: 4em;
+}
+
+.apply-form-info > p{
+  font-size: 1.5em;
+}
+
+.apply-form-fields{
+  display: flex;
+  flex-direction: column;
+  font-size: 1em;
+}
+
+.apply-form-fields > label, .apply-form-fields > input {
+  font-size: 2.2em;
+  padding: 20px 20px;
+}
+
+.apply-form-fields > label{
+  font-weight: bold;
+}
+
+.apply-form-fields > input {
+  border-radius: 30px;
+  background-color: #E8E8E8;
+  border: none;
+}
+
+.float-left {
+  float: left;
+  margin-top: 60px;
+  font-size: 2em;
+  border-radius: 30px;
+  padding: 5px 40px;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.float-right {
+  float: right;
+  margin-top: 60px;
+  font-size: 2em;
+  border-radius: 30px;
+  padding: 5px 40px;
+  color: white;
+  background-color:#f64480;
+  border: 2px solid #f64480;
+}
+
+.dobule-input {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+}
+
+.dobule-input > input {
+  font-size: 2.2em;
+  padding: 20px 20px;
+  border-radius: 30px;
+  background-color: #E8E8E8;
+  border: none;
+  flex: 1
+}
+
+.about-us-info {
+  padding: 80px 100px;
+}
+
+.about-us-info-logo {
+  padding: 10%;
+}
+
+.about-us-info-section {
+  display: flex;
+}
+
+.about-us-info-text {
+  padding: 10%;
+}
+
+.about-us-title {
+  text-align: center;
+}
+
+.about-us-row {
+  display: flex;
+}
+
+.about-us-row-info-container {
+  align-self: center;
+  padding: 13% 0px;
+}
+
+.about-us-row-info {
+  color: black;
+  flex-direction: column;
+  display: contents;
+}
+
+.about-us-row-info-title {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.about-us-row-info-text{
+  font-size: 1.2em;
+}
+
+.trapezoid {
+  position: relative;
+  width: 800px;
+  height: 500px;
+  overflow: hidden;
+}
+
+.trapezoid:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-image: url("./assets/imageBackground.jpg") ;
+  border-radius: 0 0 0 60px;
+  transform-origin: 100% 100%;
+  transform: perspective(500px) rotateX(30deg) scaleX(-1);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 1590px) {
+  .home-sub-section-container {
+    flex-direction: column;
+  }
+  .Navigation-bar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.7em;
+  }
+
+}
